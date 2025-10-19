@@ -1,0 +1,99 @@
+/* --- STYLE PROFIL TYPE INSTAGRAM --- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header du profil */
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Conteneur général */
+.profil-container {
+    max-width: 600px;
+    width: 90%;
+    background-color: #121212;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Image de profil */
+.profil-container img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #e50914;
+    margin-bottom: 1.5rem;
+}
+
+/* Informations texte */
+.profil-container .info {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.profil-container .info h4 {
+    margin: 0.5rem 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ddd;
+}
+
+/* Compteurs */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats div span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.stats div label {
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* Bouton */
+input[type="button"] {
+    background-color: #e50914;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: #b00610;
+}

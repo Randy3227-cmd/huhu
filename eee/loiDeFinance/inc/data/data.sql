@@ -1,0 +1,3 @@
+CREATE OR REPLACE DATABASE loiDeFinance2025;
+
+CREATE OR REPLACE TABLE tableau-finance;

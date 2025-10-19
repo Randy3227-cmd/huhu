@@ -1,0 +1,149 @@
+/* Netflix x Instagram Style Theme */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+h4, h5, h6, p, a, input {
+    color: #fff;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e50914;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h5 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #e50914;
+}
+
+.list-pub {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(229, 9, 20, 0.3);
+}
+
+.publication, .commentaire {
+    background-color: #222;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.05);
+}
+
+.publication img, .commentaire img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #e50914;
+}
+
+.commentaire {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.comment-text {
+    margin-left: 15px;
+    flex: 1;
+}
+
+.comment-text p {
+    margin-top: 5px;
+    color: #ddd;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+}
+
+form input[type="submit"], input[type="button"] {
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #b00610;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+input[type="button"] {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.profil_container {
+    padding: 20px;
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(229,9,20,0.3);
+}
+
+.form {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #333;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.form_sub {
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.form_sub:hover {
+    background-color: #b00610;
+}
